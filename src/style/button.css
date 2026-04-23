@@ -1,0 +1,25 @@
+.button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    button{
+        padding: 0.5rem 1rem;
+        background-color: rgb(250, 61, 61);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: rgb(255, 0, 0);
+        }
+        &:active{
+            background-color: rgb(200, 0, 0);
+        }
+        
+
+    }
+}
