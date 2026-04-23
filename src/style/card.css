@@ -11,3 +11,11 @@
         border-radius: 15px;
     }
 }
+
+@media (max-width: 768px) {
+    .card{
+        width:90px;
+        aspect-ratio: 1/1.2;
+    }
+    
+}
