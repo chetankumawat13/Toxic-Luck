@@ -27,3 +27,14 @@ html, body {
 }
 
 
+
+@media (max-width: 768px) {
+    .main{
+        gap: 2rem;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+}
